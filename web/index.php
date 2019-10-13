@@ -7,7 +7,7 @@ $app->get('/cowsay', function() use($app) {
     $app['monolog']->addDebug('cowsay');
     return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
   });
-  
+
 header("CRM: would redirect");
 
 if (file_exists('Include/Config.php')) {
@@ -29,7 +29,7 @@ function dashesToCamelCase($string, $capitalizeFirstCharacter = false)
     }
 
     return $str;
-}
+} 
 
 function endsWith($haystack, $needle)
 {
