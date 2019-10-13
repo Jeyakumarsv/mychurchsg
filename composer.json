@@ -1,12 +1,12 @@
 {
-    "name": "ChurchCRM/CRM",
+    "name": "mychurchsg",
     "version": "3.5.4",
     "type": "project",
     "keywords": [
         "church",
         "crm"
     ],
-    "homepage": "http://www.churchcrm.io",
+    "homepage": "https://mychurchsg.herokuapp.com/",
     "time": "2019-10-09 23:10:19",
     "license": "MIT",
     "authors": [
