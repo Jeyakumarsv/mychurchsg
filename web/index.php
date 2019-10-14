@@ -5,5 +5,5 @@ use ChurchCRM\dto\SystemURLs;
 
 $app->get('/cowsay', function() use($app) {
     $app['monolog']->addDebug('cowsay');
-    return "<pre>"..\vendor\Cowsayphp\Cow::say("Cool beans")."</pre>";
+    return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
   });
