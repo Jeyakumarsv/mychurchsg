@@ -33,7 +33,6 @@
         "drewm/mailchimp-api": "^2.5",
         "slim/slim": "3.9.2",
         "slim/php-view": "2.2",
-        "monolog/monolog": "^1.17",
         "knplabs/github-api": "~1.4",
         "propel/propel": "~2.0@dev",
         "setasign/fpdf": "1.8.1",
@@ -48,7 +47,11 @@
         "slim/http-cache": "^0.4.0",
         "azuyalabs/yasumi": "^1.8",
         "defuse/php-encryption": "^2.2",
-		"ext-curl": "^7.3"
+        "ext-curl": "^7.3",
+        "silex/silex": "^2.0.4",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^2.0",
+        "symfony/twig-bridge": "^3"
     },
     "autoload": {
         "classmap": [
