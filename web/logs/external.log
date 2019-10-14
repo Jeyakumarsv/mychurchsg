@@ -1,0 +1,6 @@
+[14-Oct-2019 00:26:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ChurchCRM\dto\gettext() in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php:66
+Stack trace:
+#0 C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php(273): ChurchCRM\dto\SystemConfig::buildConfigs()
+#1 C:\Users\user\Documents\GitHub\mychurchsg\web\setup\index.php(17): ChurchCRM\dto\SystemConfig::init()
+#2 {main}
+  thrown in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php on line 66
