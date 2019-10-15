@@ -64,3 +64,27 @@ Stack trace:
 #1 C:\Users\user\Documents\GitHub\mychurchsg\web\setup\index.php(17): ChurchCRM\dto\SystemConfig::init()
 #2 {main}
   thrown in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php on line 68
+[15-Oct-2019 00:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ChurchCRM\dto\gettext() in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php:68
+Stack trace:
+#0 C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php(275): ChurchCRM\dto\SystemConfig::buildConfigs()
+#1 C:\Users\user\Documents\GitHub\mychurchsg\web\setup\index.php(17): ChurchCRM\dto\SystemConfig::init()
+#2 {main}
+  thrown in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php on line 68
+[15-Oct-2019 00:19:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ChurchCRM\dto\gettext() in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php:68
+Stack trace:
+#0 C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php(275): ChurchCRM\dto\SystemConfig::buildConfigs()
+#1 C:\Users\user\Documents\GitHub\mychurchsg\web\setup\index.php(17): ChurchCRM\dto\SystemConfig::init()
+#2 {main}
+  thrown in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php on line 68
+[15-Oct-2019 00:19:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ChurchCRM\dto\gettext() in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php:68
+Stack trace:
+#0 C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php(275): ChurchCRM\dto\SystemConfig::buildConfigs()
+#1 C:\Users\user\Documents\GitHub\mychurchsg\web\setup\index.php(17): ChurchCRM\dto\SystemConfig::init()
+#2 {main}
+  thrown in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php on line 68
+[15-Oct-2019 00:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ChurchCRM\dto\gettext() in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php:68
+Stack trace:
+#0 C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php(275): ChurchCRM\dto\SystemConfig::buildConfigs()
+#1 C:\Users\user\Documents\GitHub\mychurchsg\web\setup\index.php(17): ChurchCRM\dto\SystemConfig::init()
+#2 {main}
+  thrown in C:\Users\user\Documents\GitHub\mychurchsg\web\ChurchCRM\dto\SystemConfig.php on line 68
