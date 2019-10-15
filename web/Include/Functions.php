@@ -171,7 +171,11 @@ if (isset($_POST['BulkAddToCart'])) {
         $sGlobalMessage = $iCount.' '.gettext('item(s) added to the Cart.');
     }
 }
-
+if (!function_exists('gettext')) {
+    function gettext($str) {
+        return $str;
+    }
+}
 //
 // Some very basic functions that all scripts use
 //

@@ -13,7 +13,9 @@ class SystemConfig
    */
   private static $configs;
   private static $categories;
-
+  public static function gettext($str) {
+    return $str;
+}
   private static function getSupportedLocales()
   {
       $localesFile = file_get_contents(SystemURLs::getDocumentRoot()."/locale/locales.json");
@@ -384,5 +386,9 @@ class SystemConfig
     public static function hasValidOpenLPSettings() {
        return (!empty(self::getValue("sOLPURL")));
     }
+
+   
+ 
+  
 
 }
