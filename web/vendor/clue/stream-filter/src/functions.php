@@ -13,7 +13,7 @@ use RuntimeException;
  * @return resource filter resource which can be used for `remove()`
  * @throws Exception on error
  * @uses stream_filter_append()
- */
+ *//*
 function append($stream, $callback, $read_write = STREAM_FILTER_ALL)
 {
     $ret = @stream_filter_append($stream, register(), $read_write, $callback);
@@ -25,7 +25,7 @@ function append($stream, $callback, $read_write = STREAM_FILTER_ALL)
 
     return $ret;
 }
-
+*/
 /**
  * prepend a callback filter to the given stream
  *
